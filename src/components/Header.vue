@@ -54,6 +54,7 @@ const props = defineProps({
                                     <tbody>
                                         <tr
                                            v-for="producto in carrito"
+                                           :key="zapato.id"
                                         >
                                             <td>
                                                 <img 

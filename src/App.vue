@@ -79,6 +79,7 @@ const guardarLocalStorage = () => {
         <div class="row mt-5">
            <Zapato
            v-for="zapato in zapatos"
+           :key="zapato.id"
            v-bind:zapato="zapato"
            @agregar-carrito="agregarCarrito"
           />
