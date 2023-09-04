@@ -51,6 +51,17 @@
 .m-0 {
   margin: 0;
 }
+.titulo_marca {
+  color:#000;
+  font-size: 70px;
+}
+
+.subtitulo_marca {
+  color:#000;
+  font-size: 20px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -645,7 +656,7 @@ button:not(:disabled),
 }
 
 .pt-5 {
-  padding-top: 3rem !important;
+  padding-top: 2rem !important;
 }
 
 .gap-4 {
@@ -752,9 +763,9 @@ button:not(:disabled),
   }
 }
 .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/header.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/fondo13.jpg");
   /** TODO: Eliminar la sig linea **/
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../public/img/header.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../public/img/fondo13.jpg");
   background-position: 50%;
   background-size: cover;
   position: relative;

@@ -25,7 +25,9 @@ const props = defineProps({
             <div class="row justify-content-center justify-content-md-between">
                 <div class="col-8 col-md-3">
                     <a href="index.html">
-                        <img class="img-fluid" src="/img/Amma.jpg" alt="imagen logo">
+                      <h1 class="titulo_marca">AMMA </h1>
+                      <h4 class="subtitulo_marca">calzados & trajes de baño </h4>
+                        <!----<img class="img-fluid" src="/img/ammaLogo.png" alt="imagen logo">-->
                     </a>
                 </div>
                 <nav class="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
@@ -116,7 +118,7 @@ const props = defineProps({
             </div>
         </div>
 
-        <img class="header-guitarra" src="/img/header_guitarra.png" alt="imagen header">
+        <!----<img class="header-guitarra" src="/img/fondo3.jpg" alt="imagen header">-->
     </header>
 </template>
 
