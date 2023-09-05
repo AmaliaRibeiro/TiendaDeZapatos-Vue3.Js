@@ -48,7 +48,7 @@ const guardarLocalStorage = () => {
 
  const incrementarCantidad = (id) => {
   const index = carrito.value.findIndex(producto => producto.id === id)
-  if(carrito.value[index].cantidad >= 1) return //para que no sume mas de 1 en cantidad.
+  if(carrito.value[index].cantidad >= 5) return //para que no sume mas de 1 en cantidad.
   carrito.value[index].cantidad++
  }
 
