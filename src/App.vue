@@ -33,7 +33,7 @@ const guardarLocalStorage = () => {
  const agregarCarrito = (zapato) => {
   const existeCarrito = carrito.value.findIndex(producto => producto.id === zapato.id)
   if (existeCarrito >= 0) {
-    carrito.value[existeCarrito] //si quiero agregar mas de un zapato del mismo modelo se agrega .cantidad++
+    carrito.value[existeCarrito].cantidad++ //si quiero agregar mas de un zapato del mismo modelo se agrega .cantidad++
   } else {
     zapato.cantidad = 1;
     carrito.value.push(zapato);
