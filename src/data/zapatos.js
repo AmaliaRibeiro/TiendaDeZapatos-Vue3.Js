@@ -3,7 +3,8 @@ export const db = [
         id: 1,
         nombre: 'Borcego Gina',
         imagen: 'botaGina',
-        descripcion: 'Borcego color negro, material: cuero ecológico y goma',
+        descripcion: 'Borcego color negro, material: cuero ecológico y goma.',
+        talle: 'Disponible: Talle 39',
         precio: 13500,
     },
     {
@@ -11,6 +12,7 @@ export const db = [
         nombre: 'Sandalia Milena',
         imagen: 'milena2',
         descripcion: 'Sandalia negra con pulsera y brillo, material: cuero ecológico.',
+        talle: 'Disponible: Talle 38',
         precio: 13500,
     },
     {
@@ -18,6 +20,7 @@ export const db = [
         nombre: 'Pantu Bota Eva',
         imagen: 'pantuBota2',
         descripcion: 'Bota material Gamuza y goma eva.',
+        talle: 'Disponible: Talle 37',
         precio: 9900,
     },
     {
@@ -25,6 +28,7 @@ export const db = [
         nombre: 'Bota de lluvia G09',
         imagen: 'pantuLluvia',
         descripcion: 'Bota de goma especial para usar en dias de lluvia, pero tambien en cualquier otra ocasion.',
+        talle: 'Disponible: Talle 38',
         precio: 9900,
     },
     {
@@ -32,6 +36,7 @@ export const db = [
         nombre: 'Zapatilla Yael',
         imagen: 'yael',
         descripcion: 'Zapatilla blanca con detalles en colores, material: cuero ecologico.',
+        talle: 'Disponible: Talle 37',
         precio: 12900,
     },
     {
@@ -39,13 +44,15 @@ export const db = [
         nombre: 'Zapatilla 500',
         imagen: 'zapa500_2',
         descripcion: 'Zapatilla Marron con detalles en diferentes colores, material: cuero ecologico.',
-        precio: 12900,
+        talle: 'Disponible: Talle 37',
+        precio: 13500,
     },
     {
         id: 7,
         nombre: 'Zapatilla Guada',
         imagen: 'zapaTini1',
         descripcion: 'Zapatilla rosa con altura con detalles en brillo.',
+        talle: 'Disponible: Talle 38',
         precio: 16900,
     },
     {
@@ -53,6 +60,7 @@ export const db = [
         nombre: 'Bucanera 1100',
         imagen: 'buca1',
         descripcion: 'Bucanera material: gamuza.',
+        talle: 'Disponible: Talle 38',
         precio: 13500,
     },
     {
@@ -60,6 +68,7 @@ export const db = [
         nombre: 'Sandalia Roma',
         imagen: 'romanaSuela',
         descripcion: 'Sandalia 100% Cuero color suela, material: cuero y yute.',
+        talle: 'Disponible: Talle 36',
         precio: 13900,
     },
     {
@@ -67,6 +76,7 @@ export const db = [
         nombre: 'Sandalia Romani',
         imagen: 'romanaVerde',
         descripcion: 'Sandalia verde 100% Cuero.',
+        talle: 'Disponible: Talle 37',
         precio: 13900,
     },
     {
@@ -74,6 +84,7 @@ export const db = [
         nombre: 'Sandalia Sandi Fucsia',
         imagen: 'sandiFucsia',
         descripcion: 'Sandalia Fucsia brillante, de material: Cuero ecologico con detalles en piedras.',
+        talle: 'Disponible: Talle 37',
         precio: 13500,
     },
     {
@@ -81,6 +92,7 @@ export const db = [
         nombre: 'Sandalia Sandi Verde',
         imagen: 'sandiVerde',
         descripcion: 'Sandalia Verde manzana, de material: Cuero ecologico con detalles en piedras.',
+        talle: 'Disponible: Talle 38',
         precio: 13500,
     },
 ]
